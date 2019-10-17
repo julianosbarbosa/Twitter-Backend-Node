@@ -6,12 +6,14 @@
   "author": "Juliano <julianotrabalho2016@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.7.5"
+    "mongoose": "^5.7.5",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
-  }, 
+  },
   "scripts": {
     "start": "nodemon src/index.js"
   }
